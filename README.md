@@ -6,7 +6,7 @@ bytes and end with Fandango holding a stateful conversation with a server, and
 you watch code coverage of the target climb at every step.
 
 The target is **FDP**, the Fandango Demo Protocol: a tiny, text-based, stateful
-messaging protocol. It is fully specified in [`docs/FDP-SPEC.md`](docs/FDP-SPEC.md)
+messaging protocol. It is fully specified in [`docs/FDP-SPEC.txt`](docs/FDP-SPEC.txt)
 (read it like an RFC). Text was chosen so every input is human-readable and easy
 to debug.
 
