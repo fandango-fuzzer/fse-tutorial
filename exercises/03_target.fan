@@ -8,8 +8,8 @@
 # Read:  fdp_cover.py, and the branch labels in fdp.py (grep for _mark)
 # Docs:  the feedback here is a where-constraint in Python -> https://fandango-fuzzer.github.io/Constraints.html
 # Run:   fandango fuzz -f exercises/03_target.fan -n 5
-# Validate: python fdp_validate.py --step feedback --spec exercises/03_coverage.fan
-#           (grades the feedback block via 3a. This directed variant has no
+# Validate: python fdp_validate.py --step feedback --spec exercises/03_target.fan
+#           (grades the feedback block via 3b. This directed variant has no
 #           coverage grade of its own - your check here is the Run output
 #           itself: every generated line must be a LOGIN.)
 #
